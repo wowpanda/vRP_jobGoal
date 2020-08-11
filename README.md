@@ -28,5 +28,5 @@ end
 * **STEP 3:**
 Go into your all jobs in **```server.lua```** and add ***,true*** like this https://i.imgur.com/oGqW33O.png
 
-**DOWNLOAD -->** 
-
+I hope you enjoy using this <3
+Much love from machiamavlad known as sefu ma-tii

@@ -2,13 +2,13 @@ local Tunnel = module("vrp", "lib/Tunnel")
 local Proxy = module("vrp", "lib/Proxy")
 
 vRP = Proxy.getInterface("vRP")
-vRPclient = Tunnel.getInterface("vRP","fantasy_jg")
-fcJobG = Tunnel.getInterface("fantasy_jg","fantasy_jg")
+vRPclient = Tunnel.getInterface("vRP","vRP_jobGoal")
+fcJobG = Tunnel.getInterface("vRP_jobGoal","vRP_jobGoal")
 
 
 fsJobG = {}
-Tunnel.bindInterface("fantasy_jg",fsJobG)
-Proxy.addInterface("fantasy_jg",fsJobG)
+Tunnel.bindInterface("vRP_jobGoal",fsJobG)
+Proxy.addInterface("vRP_jobGoal",fsJobG)
 
 local facut = 0
 local jobGoal = 150000 -- that's the value of the job goal

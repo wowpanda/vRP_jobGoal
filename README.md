@@ -18,7 +18,6 @@ After this you'll have to go in vRP/modules/money.lua and replace your **```vRP.
 function vRP.giveMoney(user_id,amount,jobs)
   local money = vRP.getMoney(user_id)
   vRP.setMoney(user_id,money+amount)
-  vRPclient.arataTranzactie(vRP.getUserSource(user_id),{"plus",amount})
   if(jobs == "true")then
     jobGoal.cresteJobGoal({tonumber(amount)})
   end

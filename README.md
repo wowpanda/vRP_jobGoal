@@ -1,4 +1,4 @@
-#Job Goal aka Money Goal
+#vRP_jobGoal
 
 **Job Goal a.k.a Money Goal**
 

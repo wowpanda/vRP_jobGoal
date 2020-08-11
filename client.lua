@@ -1,11 +1,8 @@
 fcJobG = {}
-Tunnel.bindInterface("fantasy_jg",fcJobG)
-Proxy.addInterface("fantasy_jg",fcJobG)
-fsJobG = Tunnel.getInterface("fantasy_jg","fantasy_jg")
+Tunnel.bindInterface("vRP_jobGoal",fcJobG)
+Proxy.addInterface("vRP_jobGoal",fcJobG)
+fsJobG = Tunnel.getInterface("vRP_jobGoal","vRP_jobGoal")
 vRP = Proxy.getInterface("vRP")
-
-vRPnames = Proxy.getInterface("fantasy_names")
-vRPds = Proxy.getInterface("fantasy_jg")
 
 local facut = 0
 local showing = true

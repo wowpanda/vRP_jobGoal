@@ -28,4 +28,4 @@ end
 Go into your all jobs in **```server.lua```** and add ***,true*** like this https://i.imgur.com/oGqW33O.png
 
 I hope you enjoy using this <3
-Much love from machiamavlad known as sefu ma-tii
+Much love from machiamavlad also known as sefu ma-tii

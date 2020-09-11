@@ -107,7 +107,7 @@ end
 -- get a tunnel interface to send requests 
 -- name: interface name
 -- identifier: unique string to identify this tunnel interface access (the name of the current resource should be fine)
-function Tunnel.getInterfacename,identifier)
+function Tunnel.getInterface(name,identifier)
   local ids = Tools.newIDGenerator()
   local callbacks = {}
 
@@ -131,3 +131,4 @@ function Tunnel.getInterfacename,identifier)
   return r
 end
 ---- END TUNNEL CLIENT SIDE VERSION
+
